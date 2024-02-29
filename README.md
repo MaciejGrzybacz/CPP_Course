@@ -1,1 +1,1 @@
-# C-_programming
+# University course of C++ programming.
