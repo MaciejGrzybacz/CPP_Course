@@ -1,0 +1,98 @@
+==162== Memcheck, a memory error detector
+==162== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==162== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==162== Command: /tmp/tmpk9br9tqd/student/build//bin/tests
+==162== 
+Running main() from /tmp/tmpk9br9tqd/student/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from MatrixTester
+[ RUN      ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:43: Failure
+Failed
+Constructors not implemented
+[  FAILED  ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero (49 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:63: Failure
+Failed
+Constructors not implemented
+[  FAILED  ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied (5 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:84: Failure
+Failed
+Constructors not implemented
+[  FAILED  ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied (2 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:107: Failure
+Failed
+operator= not implemented
+[  FAILED  ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied (2 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:131: Failure
+Failed
+operator= not implemented
+[  FAILED  ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash (2 ms)
+[ RUN      ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:159: Failure
+Failed
+operator<< not implemented
+[  FAILED  ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream (2 ms)
+[ RUN      ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:186: Failure
+Failed
+operator>> not implemented
+[  FAILED  ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream (2 ms)
+[ RUN      ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:212: Failure
+Failed
+arithmetic operators not implemented
+[  FAILED  ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied (2 ms)
+[ RUN      ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:243: Failure
+Failed
+arithmetic operators not implemented
+[  FAILED  ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned (2 ms)
+[ RUN      ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:274: Failure
+Failed
+arithmetic operators not implemented
+[  FAILED  ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned (4 ms)
+[ RUN      ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:300: Failure
+Failed
+subscript operators not implemented
+[  FAILED  ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess (2 ms)
+[ RUN      ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions
+/tmp/tmpk9br9tqd/student/tests/matrixTests.cpp:313: Failure
+Failed
+conversion operator not implemented
+[  FAILED  ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions (2 ms)
+[----------] 12 tests from MatrixTester (110 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (168 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 12 tests, listed below:
+[  FAILED  ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero
+[  FAILED  ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied
+[  FAILED  ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied
+[  FAILED  ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied
+[  FAILED  ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash
+[  FAILED  ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream
+[  FAILED  ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream
+[  FAILED  ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied
+[  FAILED  ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned
+[  FAILED  ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned
+[  FAILED  ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess
+[  FAILED  ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions
+
+12 FAILED TESTS
+==162== 
+==162== HEAP SUMMARY:
+==162==     in use at exit: 0 bytes in 0 blocks
+==162==   total heap usage: 648 allocs, 648 frees, 184,982 bytes allocated
+==162== 
+==162== All heap blocks were freed -- no leaks are possible
+==162== 
+==162== For lists of detected and suppressed errors, rerun with: -s
+==162== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

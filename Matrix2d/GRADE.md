@@ -1,0 +1,14 @@
+Dear Student,
+
+I regret to inform you that you've received only **0** out of 12 points for this assignment.
+
+There still exist some issues that should be addressed before the deadline: **2024-04-13 23:50:00 CEST (+0200)**. For further details, please refer to the following list:
+
+<details><summary>Nie wszystkie testy przeszły! Oto lista tych co nie przeszły:</summary>1.&nbsp;MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero<br>2.&nbsp;MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied<br>3.&nbsp;MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied<br>4.&nbsp;MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied<br>5.&nbsp;MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash<br>6.&nbsp;MatrixTester.checkingOstreamOperator_expectedAllElementsInStream<br>7.&nbsp;MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream<br>8.&nbsp;MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied<br>9.&nbsp;MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned<br>10.&nbsp;MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned<br>11.&nbsp;MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess<br>12.&nbsp;MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions</details>
+<details><summary>Ostrzeżenia w trakcie kompilacji</summary>/tmp/tmpk9br9tqd/student/matrix.cpp:10:2:&nbsp;warning:&nbsp;#warning&nbsp;before&nbsp;C++23&nbsp;is&nbsp;a&nbsp;GCC&nbsp;extension<br>&nbsp;&nbsp;&nbsp;10&nbsp;|&nbsp;#warning&nbsp;"Funkcje&nbsp;sa&nbsp;do&nbsp;zaimplementowania.&nbsp;Instrukcja&nbsp;w&nbsp;pliku&nbsp;naglowkowym"&nbsp;//&nbsp;po&nbsp;zaimplementowaniu&nbsp;sugeruje&nbsp;usuniecie&nbsp;tej&nbsp;linijki&nbsp;-&nbsp;nie&nbsp;chcemy&nbsp;warningow<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;^~~~~~~<br>/tmp/tmpk9br9tqd/student/matrix.cpp:10:2:&nbsp;warning:&nbsp;#warning&nbsp;"Funkcje&nbsp;sa&nbsp;do&nbsp;zaimplementowania.&nbsp;Instrukcja&nbsp;w&nbsp;pliku&nbsp;naglowkowym"&nbsp;[-Wcpp]<br></details>
+<details><summary>Cppcheck znalazł potencjalne błędy (to narzędzie może się pomylić)</summary>/tmp/tmpk9br9tqd/student/matrix.h:87:1:&nbsp;warning:&nbsp;The&nbsp;class&nbsp;'TwoDimensionMatrix'&nbsp;does&nbsp;not&nbsp;declare&nbsp;a&nbsp;constructor&nbsp;although&nbsp;it&nbsp;has&nbsp;private&nbsp;member&nbsp;variables&nbsp;which&nbsp;likely&nbsp;require&nbsp;initialization.&nbsp;[noConstructor]<br>class&nbsp;TwoDimensionMatrix<br>^<br></details>
+
+-----------
+I remain your faithful servant\
+_Bobot_\
+_March 14, AD 2024, 12:03:21 (UTC)_

@@ -1,0 +1,3 @@
+/tmp/tmpk9br9tqd/student/matrix.h:87:1: warning: The class 'TwoDimensionMatrix' does not declare a constructor although it has private member variables which likely require initialization. [noConstructor]
+class TwoDimensionMatrix
+^
