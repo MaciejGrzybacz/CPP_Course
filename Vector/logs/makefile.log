@@ -1,0 +1,603 @@
+[ 11%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 22%] Linking CXX static library ../../../lib/libgtest.a
+[ 22%] Built target gtest
+[ 33%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 44%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 44%] Built target gtest_main
+[ 55%] Building CXX object tests/CMakeFiles/tests.dir/fractionTests.cpp.o
+[ 66%] Building CXX object tests/CMakeFiles/tests.dir/vectorTests.cpp.o
+[ 77%] Building CXX object tests/CMakeFiles/tests.dir/__/vector.cpp.o
+[ 88%] Building CXX object tests/CMakeFiles/tests.dir/__/fraction.cpp.o
+/tmp/tmp7l4rsz9p/student/fraction.cpp:7:2: warning: #warning "Metody sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+    7 | #warning "Metody sa do zaimplementowania. Instrukcja w pliku naglowkowym" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+/tmp/tmp7l4rsz9p/student/vector.cpp:6:2: warning: #warning "Metody sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+    6 | #warning "Metody sa do zaimplementowania. Instrukcja w pliku naglowkowym" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+In file included from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest.h:72,
+                 from /tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:2:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_constructionAndGetters_expectedValuesFromConstructorReadableByGetters_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:99:39: error: ‘class Vector’ has no member named ‘size’
+   99 |         ASSERT_EQ(expectedCapacity, v.size());
+      |                                       ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:100:39: error: ‘class Vector’ has no member named ‘capacity’
+  100 |         ASSERT_EQ(expectedCapacity, v.capacity());
+      |                                       ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:107:34: error: too many initializers for ‘Vector’
+  107 |         Vector v(expectedCapacity);
+      |                                  ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:109:35: error: ‘class Vector’ has no member named ‘size’
+  109 |         ASSERT_EQ(expectedSize, v.size());
+      |                                   ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:110:39: error: ‘class Vector’ has no member named ‘capacity’
+  110 |         ASSERT_EQ(expectedCapacity, v.capacity());
+      |                                       ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_destructOfNotEmptyVector_expectedMemoryFreedOnce_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:121:34: error: too many initializers for ‘Vector’
+  121 |         Vector v(expectedCapacity);
+      |                                  ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:122:39: error: ‘class Vector’ has no member named ‘capacity’
+  122 |         ASSERT_EQ(expectedCapacity, v.capacity());
+      |                                       ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_addingMultipleElementsWithoutReallocation_expectedSizeIncreasesButCapacityDoesNot_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:129:49: error: too many initializers for ‘Fraction’
+  129 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:129:65: error: too many initializers for ‘Fraction’
+  129 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:129:81: error: too many initializers for ‘Fraction’
+  129 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:132:27: error: too many initializers for ‘Vector’
+  132 |     Vector v(fractionCount);
+      |                           ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:135:11: error: ‘class Vector’ has no member named ‘push_back’
+  135 |         v.push_back(fractions[i]);
+      |           ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:136:26: error: ‘class Vector’ has no member named ‘size’
+  136 |         EXPECT_EQ(i+1, v.size()) << "i = " << i << ", " << vector2String(v);
+      |                          ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:137:36: error: ‘class Vector’ has no member named ‘capacity’
+  137 |         EXPECT_EQ(fractionCount, v.capacity()) << "i = " << i << ", " << vector2String(v);
+      |                                    ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_accessingWithIndexOperator_expectedProperElementsInProperPlaces_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:143:49: error: too many initializers for ‘Fraction’
+  143 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:143:65: error: too many initializers for ‘Fraction’
+  143 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:143:81: error: too many initializers for ‘Fraction’
+  143 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:146:27: error: too many initializers for ‘Vector’
+  146 |     Vector v(fractionCount);
+      |                           ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:149:11: error: ‘class Vector’ has no member named ‘push_back’
+  149 |         v.push_back(fractions[i]);
+      |           ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:151:32: error: ‘const class Fraction’ has no member named ‘numerator’
+  151 |         EXPECT_EQ(fractions[i].numerator(),   v[i].numerator()) << "i = " << i << ", " << vector2String(v) << ", " << fractionArray2String(fractions);
+      |                                ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:151:48: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  151 |         EXPECT_EQ(fractions[i].numerator(),   v[i].numerator()) << "i = " << i << ", " << vector2String(v) << ", " << fractionArray2String(fractions);
+      |                                                ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:152:32: error: ‘const class Fraction’ has no member named ‘denominator’
+  152 |         EXPECT_EQ(fractions[i].denominator(), v[i].denominator()) << "i = " << i << ", " << vector2String(v) << ", " << fractionArray2String(fractions);
+      |                                ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:152:48: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  152 |         EXPECT_EQ(fractions[i].denominator(), v[i].denominator()) << "i = " << i << ", " << vector2String(v) << ", " << fractionArray2String(fractions);
+      |                                                ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_copyAndMoveConstructor_expectedSuccessfulCopyAndMove_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:158:49: error: too many initializers for ‘Fraction’
+  158 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:158:65: error: too many initializers for ‘Fraction’
+  158 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:158:81: error: too many initializers for ‘Fraction’
+  158 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:161:27: error: too many initializers for ‘Vector’
+  161 |     Vector v(fractionCount);
+      |                           ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:164:11: error: ‘class Vector’ has no member named ‘push_back’
+  164 |         v.push_back(fractions[i]);
+      |           ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:169:42: error: ‘const class Vector’ has no member named ‘size’
+  169 |         ASSERT_EQ(fractionCount, vCopied.size());
+      |                                          ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:170:42: error: ‘const class Vector’ has no member named ‘capacity’
+  170 |         ASSERT_EQ(fractionCount, vCopied.capacity());
+      |                                          ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:173:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  173 |             EXPECT_EQ(fractions[i].numerator(),   vCopied[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:173:58: error: no match for ‘operator[]’ (operand types are ‘const Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  173 |             EXPECT_EQ(fractions[i].numerator(),   vCopied[i].numerator())
+      |                                                          ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:175:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  175 |             EXPECT_EQ(fractions[i].denominator(), vCopied[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:175:58: error: no match for ‘operator[]’ (operand types are ‘const Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  175 |             EXPECT_EQ(fractions[i].denominator(), vCopied[i].denominator())
+      |                                                          ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:178:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  178 |             EXPECT_EQ(fractions[i].numerator(),   v[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:178:52: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  178 |             EXPECT_EQ(fractions[i].numerator(),   v[i].numerator())
+      |                                                    ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:180:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  180 |             EXPECT_EQ(fractions[i].denominator(), v[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:180:52: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  180 |             EXPECT_EQ(fractions[i].denominator(), v[i].denominator())
+      |                                                    ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:189:50: error: ‘class Vector’ has no member named ‘size’
+  189 |         EXPECT_EQ(expectedCapacityAfterMoving, v.size());
+      |                                                  ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:190:50: error: ‘class Vector’ has no member named ‘capacity’
+  190 |         EXPECT_EQ(expectedCapacityAfterMoving, v.capacity());
+      |                                                  ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:191:41: error: ‘const class Vector’ has no member named ‘size’
+  191 |         ASSERT_EQ(fractionCount, vMoved.size());
+      |                                         ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:192:41: error: ‘const class Vector’ has no member named ‘capacity’
+  192 |         ASSERT_EQ(fractionCount, vMoved.capacity());
+      |                                         ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:196:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  196 |             EXPECT_EQ(fractions[i].numerator(),   vMoved[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:196:57: error: no match for ‘operator[]’ (operand types are ‘const Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  196 |             EXPECT_EQ(fractions[i].numerator(),   vMoved[i].numerator())
+      |                                                         ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:198:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  198 |             EXPECT_EQ(fractions[i].denominator(), vMoved[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:198:57: error: no match for ‘operator[]’ (operand types are ‘const Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  198 |             EXPECT_EQ(fractions[i].denominator(), vMoved[i].denominator())
+      |                                                         ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_assignmentOperatorCopyingAndMoving_expectedSuccessfulCopyAndMove_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:205:49: error: too many initializers for ‘Fraction’
+  205 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:205:65: error: too many initializers for ‘Fraction’
+  205 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:205:81: error: too many initializers for ‘Fraction’
+  205 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:208:27: error: too many initializers for ‘Vector’
+  208 |     Vector v(fractionCount), v2, v3;
+      |                           ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:211:11: error: ‘class Vector’ has no member named ‘push_back’
+  211 |         v.push_back(fractions[i]);
+      |           ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:216:37: error: ‘class Vector’ has no member named ‘size’
+  216 |         ASSERT_EQ(fractionCount, v2.size());
+      |                                     ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:217:37: error: ‘class Vector’ has no member named ‘capacity’
+  217 |         ASSERT_EQ(fractionCount, v2.capacity());
+      |                                     ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:220:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  220 |             EXPECT_EQ(fractions[i].numerator(),   v2[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:220:53: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  220 |             EXPECT_EQ(fractions[i].numerator(),   v2[i].numerator())
+      |                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:222:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  222 |             EXPECT_EQ(fractions[i].denominator(), v2[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:222:53: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  222 |             EXPECT_EQ(fractions[i].denominator(), v2[i].denominator())
+      |                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:225:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  225 |             EXPECT_EQ(fractions[i].numerator(),   v[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:225:52: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  225 |             EXPECT_EQ(fractions[i].numerator(),   v[i].numerator())
+      |                                                    ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:227:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  227 |             EXPECT_EQ(fractions[i].denominator(), v[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:227:52: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  227 |             EXPECT_EQ(fractions[i].denominator(), v[i].denominator())
+      |                                                    ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:235:50: error: ‘class Vector’ has no member named ‘size’
+  235 |         EXPECT_EQ(expectedCapacityAfterMoving, v.size());
+      |                                                  ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:236:50: error: ‘class Vector’ has no member named ‘capacity’
+  236 |         EXPECT_EQ(expectedCapacityAfterMoving, v.capacity());
+      |                                                  ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:237:37: error: ‘class Vector’ has no member named ‘size’
+  237 |         ASSERT_EQ(fractionCount, v3.size());
+      |                                     ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:238:37: error: ‘class Vector’ has no member named ‘capacity’
+  238 |         ASSERT_EQ(fractionCount, v3.capacity());
+      |                                     ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:242:36: error: ‘const class Fraction’ has no member named ‘numerator’
+  242 |             EXPECT_EQ(fractions[i].numerator(),   v3[i].numerator())
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:242:53: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  242 |             EXPECT_EQ(fractions[i].numerator(),   v3[i].numerator())
+      |                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:244:36: error: ‘const class Fraction’ has no member named ‘denominator’
+  244 |             EXPECT_EQ(fractions[i].denominator(), v3[i].denominator())
+      |                                    ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:244:53: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  244 |             EXPECT_EQ(fractions[i].denominator(), v3[i].denominator())
+      |                                                     ^
+In file included from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-printers.h:115,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-matchers.h:48,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/internal/gtest-death-test-internal.h:47,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-death-test.h:43,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest.h:65:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_accessingWithIndexOperatorOutOfRange_expectedExceptionWhenOutOfRange_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:253:22: error: ‘class Vector’ has no member named ‘size’
+  253 |     ASSERT_THROW(v[v.size()], std::out_of_range);
+      |                      ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:256:33: error: too many initializers for ‘const Fraction’
+  256 |     const Fraction fraction{1, 2};
+      |                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:258:31: error: too many initializers for ‘Vector’
+  258 |     Vector v2(expectedCapacity);
+      |                               ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:261:12: error: ‘class Vector’ has no member named ‘push_back’
+  261 |         v2.push_back(fraction);
+      |            ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:263:27: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘size_t’ {aka ‘long unsigned int’})
+  263 |         ASSERT_NO_THROW(v2[i]) << "i = " << i << ", Current: " << vector2String(v2);
+      |                           ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:265:20: error: no match for ‘operator[]’ (operand types are ‘Vector’ and ‘long unsigned int’)
+  265 |     ASSERT_THROW(v2[expectedCapacity+1], std::out_of_range);
+      |                    ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_constructionAndGetters_expectedValuesFromConstructorReadableByGetters_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:27:55: error: too many initializers for ‘Fraction’
+   27 |         const Fraction fraction(numerator, denominator);
+      |                                                       ^
+In file included from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest.h:72,
+                 from /tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:3:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:28:39: error: ‘const class Fraction’ has no member named ‘numerator’
+   28 |         ASSERT_EQ(numerator, fraction.numerator());
+      |                                       ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp: In member function ‘virtual void VectorTest_addingElementsWithReallocationNecessairy_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:270:49: error: too many initializers for ‘Fraction’
+  270 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:270:65: error: too many initializers for ‘Fraction’
+  270 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:270:81: error: too many initializers for ‘Fraction’
+  270 |     const Fraction fractions[] = { Fraction{1, 2}, Fraction{3, 4}, Fraction{5, 6} };
+      |                                                                                 ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:29:41: error: ‘const class Fraction’ has no member named ‘denominator’
+   29 |         ASSERT_EQ(denominator, fraction.denominator());
+      |                                         ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:276:11: error: ‘class Vector’ has no member named ‘push_back’
+  276 |         v.push_back(fractions[i]);
+      |           ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:277:26: error: ‘class Vector’ has no member named ‘size’
+  277 |         ASSERT_EQ(i+1, v.size()) << "i = " << i << ", Current: " << vector2String(v) << ", Expected: " << fractionArray2String(fractions);
+      |                          ^~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:36:42: error: too many initializers for ‘Fraction’
+   36 |         const Fraction fraction(numerator);
+      |                                          ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:37:39: error: ‘const class Fraction’ has no member named ‘numerator’
+   37 |         ASSERT_EQ(numerator, fraction.numerator());
+      |                                       ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:38:48: error: ‘const class Fraction’ has no member named ‘denominator’
+   38 |         ASSERT_EQ(defaultDenominator, fraction.denominator());
+      |                                                ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:278:21: error: ‘class Vector’ has no member named ‘size’
+  278 |         ASSERT_EQ(v.size(), v.capacity()) << "i = " << i << ", Current: " << vector2String(v) << ", Expected: " << fractionArray2String(fractions);
+      |                     ^~~~
+/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp:278:31: error: ‘class Vector’ has no member named ‘capacity’
+  278 |         ASSERT_EQ(v.size(), v.capacity()) << "i = " << i << ", Current: " << vector2String(v) << ", Expected: " << fractionArray2String(fractions);
+      |                               ^~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_settersForMembers_expectedValuesChangesWithoutReduction_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:47:47: error: too many initializers for ‘Fraction’
+   47 |     Fraction fraction(numerator1, denominator1);
+      |                                               ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:48:36: error: ‘class Fraction’ has no member named ‘numerator’
+   48 |     ASSERT_EQ(numerator1, fraction.numerator());
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:49:38: error: ‘class Fraction’ has no member named ‘denominator’
+   49 |     ASSERT_EQ(denominator1, fraction.denominator());
+      |                                      ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:51:14: error: ‘class Fraction’ has no member named ‘setNumerator’
+   51 |     fraction.setNumerator(numerator2);
+      |              ^~~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:52:14: error: ‘class Fraction’ has no member named ‘setDenominator’
+   52 |     fraction.setDenominator(denominator2);
+      |              ^~~~~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:53:36: error: ‘class Fraction’ has no member named ‘numerator’
+   53 |     ASSERT_EQ(numerator2, fraction.numerator());
+      |                                    ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:54:38: error: ‘class Fraction’ has no member named ‘denominator’
+   54 |     ASSERT_EQ(denominator2, fraction.denominator());
+      |                                      ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_fractionMultiplyResultFractionImpossibleForReduction_expectedSimpleMultiplyingWorking_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:63:64: error: too many initializers for ‘Fraction’
+   63 |     const Fraction fraction = Fraction(numerator1, denominator1) * Fraction(numerator2, denominator2);
+      |                                                                ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:63:101: error: too many initializers for ‘Fraction’
+   63 |     const Fraction fraction = Fraction(numerator1, denominator1) * Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:63:66: error: no match for ‘operator*’ (operand types are ‘Fraction’ and ‘Fraction’)
+   63 |     const Fraction fraction = Fraction(numerator1, denominator1) * Fraction(numerator2, denominator2);
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |                                    |
+      |                               Fraction                             Fraction
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:64:41: error: ‘const class Fraction’ has no member named ‘numerator’
+   64 |     ASSERT_EQ(numeratorResult, fraction.numerator());
+      |                                         ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:65:43: error: ‘const class Fraction’ has no member named ‘denominator’
+   65 |     ASSERT_EQ(denominatorResult, fraction.denominator());
+      |                                           ^~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_fractionAdditionResultFractionImpossibleForReduction_expectedSimpleAdditionWorking_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:64: error: too many initializers for ‘Fraction’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: error: too many initializers for ‘Fraction’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:66: error: no match for ‘operator+’ (operand types are ‘Fraction’ and ‘Fraction’)
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |                                    |
+      |                               Fraction                             Fraction
+In file included from /usr/include/c++/13/string:48,
+                 from /usr/include/c++/13/bits/locale_classes.h:40,
+                 from /usr/include/c++/13/bits/ios_base.h:41,
+                 from /usr/include/c++/13/ios:44,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from /tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:1:
+/usr/include/c++/13/bits/stl_iterator.h:634:5: note: candidate: ‘template<class _Iterator> constexpr std::reverse_iterator<_IteratorL> std::operator+(typename reverse_iterator<_IteratorL>::difference_type, const reverse_iterator<_IteratorL>&)’
+  634 |     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:634:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::reverse_iterator<_IteratorL>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/stl_iterator.h:1808:5: note: candidate: ‘template<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename move_iterator<_IteratorL>::difference_type, const move_iterator<_IteratorL>&)’
+ 1808 |     operator+(typename move_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1808:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+In file included from /usr/include/c++/13/string:54:
+/usr/include/c++/13/bits/basic_string.h:3541:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3541 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3541:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3559:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3559 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3559:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   mismatched types ‘const _CharT*’ and ‘Fraction’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3578:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3578 |     operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Alloc>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3578:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3595:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)’
+ 3595 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3595:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3613:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)’
+ 3613 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3613:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3625:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3625 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3625:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3632:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3632 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3632:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3639:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3639 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3639:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3662:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3662 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3662:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   mismatched types ‘const _CharT*’ and ‘Fraction’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3669:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3669 |     operator+(_CharT __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3669:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3676:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)’
+ 3676 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3676:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/usr/include/c++/13/bits/basic_string.h:3683:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)’
+ 3683 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3683:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:74:101: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   74 |     const Fraction fraction = Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2);
+      |                                                                                                     ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:75:41: error: ‘const class Fraction’ has no member named ‘numerator’
+   75 |     ASSERT_EQ(numeratorResult, fraction.numerator());
+      |                                         ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:76:43: error: ‘const class Fraction’ has no member named ‘denominator’
+   76 |     ASSERT_EQ(denominatorResult, fraction.denominator());
+      |                                           ^~~~~~~~~~~
+In file included from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-printers.h:115,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-matchers.h:48,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/internal/gtest-death-test-internal.h:47,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest-death-test.h:43,
+                 from /tmp/tmp7l4rsz9p/student/tests/lib/googletest/include/gtest/gtest.h:65:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_settingInvalidDenominarrInConstructor_expectedThrow_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:84:56: error: too many initializers for ‘Fraction’
+   84 |     ASSERT_THROW(Fraction(numerator, invalidDenominator), std::invalid_argument);
+      |                                                        ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:86:43: error: too many initializers for ‘Fraction’
+   86 |     Fraction fraction = Fraction(numerator);
+      |                                           ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:87:27: error: ‘class Fraction’ has no member named ‘setDenominator’
+   87 |     ASSERT_THROW(fraction.setDenominator(invalidDenominator), std::invalid_argument);
+      |                           ^~~~~~~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_fractionAdditionWithCommonDenominator_expectedReduction_Test::TestBody()’:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:96:63: error: too many initializers for ‘Fraction’
+   96 |     const Fraction fraction = Fraction(numerator1, denominator)
+      |                                                               ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: error: too many initializers for ‘Fraction’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:13: error: no match for ‘operator+’ (operand types are ‘Fraction’ and ‘Fraction’)
+   96 |     const Fraction fraction = Fraction(numerator1, denominator)
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               Fraction
+   97 |             + Fraction(numerator2, denominator);
+      |             ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               |
+      |               Fraction
+/usr/include/c++/13/bits/stl_iterator.h:634:5: note: candidate: ‘template<class _Iterator> constexpr std::reverse_iterator<_IteratorL> std::operator+(typename reverse_iterator<_IteratorL>::difference_type, const reverse_iterator<_IteratorL>&)’
+  634 |     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:634:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::reverse_iterator<_IteratorL>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/stl_iterator.h:1808:5: note: candidate: ‘template<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename move_iterator<_IteratorL>::difference_type, const move_iterator<_IteratorL>&)’
+ 1808 |     operator+(typename move_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1808:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3541:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3541 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3541:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3559:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3559 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3559:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   mismatched types ‘const _CharT*’ and ‘Fraction’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3578:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3578 |     operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Alloc>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3578:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3595:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)’
+ 3595 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3595:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3613:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)’
+ 3613 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3613:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3625:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3625 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3625:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3632:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3632 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3632:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3639:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3639 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3639:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3662:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3662 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3662:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   mismatched types ‘const _CharT*’ and ‘Fraction’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3669:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)’
+ 3669 |     operator+(_CharT __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3669:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3676:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)’
+ 3676 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3676:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/usr/include/c++/13/bits/basic_string.h:3683:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)’
+ 3683 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3683:5: note:   template argument deduction/substitution failed:
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:97:47: note:   ‘Fraction’ is not derived from ‘std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   97 |             + Fraction(numerator2, denominator);
+      |                                               ^
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:98:41: error: ‘const class Fraction’ has no member named ‘numerator’
+   98 |     ASSERT_EQ(numeratorResult, fraction.numerator());
+      |                                         ^~~~~~~~~
+/tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp:99:43: error: ‘const class Fraction’ has no member named ‘denominator’
+   99 |     ASSERT_EQ(denominatorResult, fraction.denominator());
+      |                                           ^~~~~~~~~~~
+make[3]: *** [tests/CMakeFiles/tests.dir/build.make:90: tests/CMakeFiles/tests.dir/vectorTests.cpp.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** [tests/CMakeFiles/tests.dir/build.make:76: tests/CMakeFiles/tests.dir/fractionTests.cpp.o] Error 1
+make[2]: *** [CMakeFiles/Makefile2:345: tests/CMakeFiles/tests.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:352: tests/CMakeFiles/tests.dir/rule] Error 2
+make: *** [Makefile:260: tests] Error 2

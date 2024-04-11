@@ -1,0 +1,68 @@
+[
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o CMakeFiles\\zad3SimpleVector.dir\\fraction.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\fraction.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\fraction.cpp",
+  "output": "CMakeFiles\\zad3SimpleVector.dir\\fraction.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o CMakeFiles\\zad3SimpleVector.dir\\main.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\main.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\main.cpp",
+  "output": "CMakeFiles\\zad3SimpleVector.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o CMakeFiles\\zad3SimpleVector.dir\\vector.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\vector.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\vector.cpp",
+  "output": "CMakeFiles\\zad3SimpleVector.dir\\vector.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\fractionTests.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\fractionTests.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\fractionTests.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\fractionTests.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\vectorTests.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\vectorTests.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\vectorTests.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\vectorTests.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\__\\fraction.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\fraction.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\fraction.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\__\\fraction.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\__\\vector.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\vector.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\vector.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\__\\vector.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googlemock/include -IC:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googlemock -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "output": "tests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googlemock/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googlemock -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "output": "tests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -IC:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "output": "tests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/lib/googletest --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab3-vector-main\\lab3-vector-main\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "output": "tests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+}
+]
