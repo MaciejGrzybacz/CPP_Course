@@ -1,0 +1,12 @@
+"C:\Users\006ma\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/006ma/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\006ma\OneDrive\Pulpit\C++\lab2-matrix2d-main\lab2-matrix2d-main -B C:\Users\006ma\OneDrive\Pulpit\C++\lab2-matrix2d-main\lab2-matrix2d-main\cmake-build-debug
+Katalog do zbudowanego projektu: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug
+ + Znaleziono nagłówki: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/matrix.h;C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/matrixElement.h
+ + Znaleziono źródła: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/main.cpp;C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/matrix.cpp
+ + Znaleziono źródła bez main.cpp: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/matrix.cpp
+	* doxygen found: C:/Strawberry/c/bin/doxygen.exe
+-- Found Python: C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0/python3.12.exe (found version "3.12.2") found components: Interpreter 
+ + Znaleziono pliki testów: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/matrixTests.cpp
+ + katalog nagłówków: 
+-- Configuring done (5.7s)
+-- Generating done (3.6s)
+-- Build files have been written to: C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug

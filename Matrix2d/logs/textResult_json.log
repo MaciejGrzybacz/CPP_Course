@@ -1,0 +1,214 @@
+{
+  "tests": 12,
+  "failures": 12,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-03-14T12:03:18Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MatrixTester",
+      "tests": 12,
+      "failures": 12,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-03-14T12:03:18Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructionEmptyMatrix_expectedAllElementsAreZero",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 29,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:43\nFailed\nConstructors not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 47,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:63\nFailed\nConstructors not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "constructionMatrixFromAnotherMatrix_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 67,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:84\nFailed\nConstructors not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "assignmentOperatorCopyingDeeply_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 88,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:107\nFailed\noperator= not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "assignmentOperatorCopyingFromItselve_expectedNotCrash",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 111,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:131\nFailed\noperator= not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "checkingOstreamOperator_expectedAllElementsInStream",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 135,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:159\nFailed\noperator<< not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "checkingIstreamOperator_expectedAllElementsReadFromStream",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 163,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:186\nFailed\noperator>> not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 190,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:212\nFailed\narithmetic operators not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 216,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:243\nFailed\narithmetic operators not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 247,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:274\nFailed\narithmetic operators not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 278,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:300\nFailed\nsubscript operators not implemented",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions",
+          "file": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp",
+          "line": 304,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-03-14T12:03:18Z",
+          "time": "0s",
+          "classname": "MatrixTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpk9br9tqd\/student\/tests\/matrixTests.cpp:313\nFailed\nconversion operator not implemented",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

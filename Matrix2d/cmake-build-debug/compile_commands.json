@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -o CMakeFiles\\zad2Matrix_dlaStudentow.dir\\main.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\main.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\main.cpp",
+  "output": "CMakeFiles\\zad2Matrix_dlaStudentow.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -o CMakeFiles\\zad2Matrix_dlaStudentow.dir\\matrix.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\matrix.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\matrix.cpp",
+  "output": "CMakeFiles\\zad2Matrix_dlaStudentow.dir\\matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\matrixTests.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\matrixTests.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\matrixTests.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\matrixTests.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -o tests\\CMakeFiles\\tests.dir\\__\\matrix.cpp.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\matrix.cpp",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\matrix.cpp",
+  "output": "tests\\CMakeFiles\\tests.dir\\__\\matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googlemock/include -IC:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googlemock -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "output": "tests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googlemock/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googlemock -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "output": "tests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -IC:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "output": "tests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/cmake-build-debug",
+  "command": "C:\\Users\\006ma\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest/include -isystem C:/Users/006ma/OneDrive/Pulpit/C++/lab2-matrix2d-main/lab2-matrix2d-main/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o tests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\006ma\\OneDrive\\Pulpit\\C++\\lab2-matrix2d-main\\lab2-matrix2d-main\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "output": "tests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+}
+]
