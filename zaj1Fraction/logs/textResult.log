@@ -1,0 +1,84 @@
+Running main() from /tmp/tmp7viz7682/student/zaj1Fraction/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from FractionTester
+[ RUN      ] FractionTester.classFractionExists
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:45: Failure
+Failed
+Class not implemented!
+[  FAILED  ] FractionTester.classFractionExists (0 ms)
+[ RUN      ] FractionTester.hasNumeratorAndDenominator
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:63: Failure
+Failed
+Numerator and denominator not implemented!
+[  FAILED  ] FractionTester.hasNumeratorAndDenominator (0 ms)
+[ RUN      ] FractionTester.checkIfHasDefaultConstructor
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:72: Failure
+Failed
+Class not implemented!
+[  FAILED  ] FractionTester.checkIfHasDefaultConstructor (0 ms)
+[ RUN      ] FractionTester.hasConstructorWhichInitialiseNumeratorAndDenominator
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:93: Failure
+Failed
+Constructor not implemented!
+[  FAILED  ] FractionTester.hasConstructorWhichInitialiseNumeratorAndDenominator (0 ms)
+[ RUN      ] FractionTester.hasGettersAndSetters
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:112: Failure
+Failed
+Class not implemented!
+[  FAILED  ] FractionTester.hasGettersAndSetters (0 ms)
+[ RUN      ] FractionTester.hasPrintFunction
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:129: Failure
+Failed
+No function wypisz() implemented
+[  FAILED  ] FractionTester.hasPrintFunction (0 ms)
+[ RUN      ] FractionTester.counterOfDestructedFractionsImplemented
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:144: Failure
+Failed
+No static function implemented
+[  FAILED  ] FractionTester.counterOfDestructedFractionsImplemented (0 ms)
+[ RUN      ] FractionTester.saveImplemented
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:160: Failure
+Failed
+No static function implemented
+[  FAILED  ] FractionTester.saveImplemented (0 ms)
+[ RUN      ] FractionTester.loadImplemented
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:179: Failure
+Failed
+No static function implemented
+[  FAILED  ] FractionTester.loadImplemented (0 ms)
+[ RUN      ] FractionTester.fractionNameSettableFromConstructor
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:197: Failure
+Failed
+Function name not implemented!
+[  FAILED  ] FractionTester.fractionNameSettableFromConstructor (0 ms)
+[ RUN      ] FractionTester.fractionGettersAreConst
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:215: Failure
+Failed
+Function name not implemented!
+[  FAILED  ] FractionTester.fractionGettersAreConst (0 ms)
+[ RUN      ] FractionTester.fractionConstStaticFieldsImplemented
+/tmp/tmp7viz7682/student/zaj1Fraction/tests/fractionTests.cpp:228: Failure
+Failed
+No static function implemented
+[  FAILED  ] FractionTester.fractionConstStaticFieldsImplemented (0 ms)
+[----------] 12 tests from FractionTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 12 tests, listed below:
+[  FAILED  ] FractionTester.classFractionExists
+[  FAILED  ] FractionTester.hasNumeratorAndDenominator
+[  FAILED  ] FractionTester.checkIfHasDefaultConstructor
+[  FAILED  ] FractionTester.hasConstructorWhichInitialiseNumeratorAndDenominator
+[  FAILED  ] FractionTester.hasGettersAndSetters
+[  FAILED  ] FractionTester.hasPrintFunction
+[  FAILED  ] FractionTester.counterOfDestructedFractionsImplemented
+[  FAILED  ] FractionTester.saveImplemented
+[  FAILED  ] FractionTester.loadImplemented
+[  FAILED  ] FractionTester.fractionNameSettableFromConstructor
+[  FAILED  ] FractionTester.fractionGettersAreConst
+[  FAILED  ] FractionTester.fractionConstStaticFieldsImplemented
+
+12 FAILED TESTS
