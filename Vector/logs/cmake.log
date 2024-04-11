@@ -1,0 +1,29 @@
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: /tmp/tmp7l4rsz9p/student/build
+ + Znaleziono nagłówki: /tmp/tmp7l4rsz9p/student/fraction.h;/tmp/tmp7l4rsz9p/student/vector.h
+ + Znaleziono źródła: /tmp/tmp7l4rsz9p/student/fraction.cpp;/tmp/tmp7l4rsz9p/student/main.cpp;/tmp/tmp7l4rsz9p/student/vector.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmp7l4rsz9p/student/fraction.cpp;/tmp/tmp7l4rsz9p/student/vector.cpp
+	* valgrind found: /usr/bin/valgrind
+	* cppcheck found: /usr/local/bin/cppcheck
+-- Found Python: /tmp/tmpwgppme_o/teacher/test-venv/bin/python3 (found version "3.12.1") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /tmp/tmp7l4rsz9p/student/tests/fractionTests.cpp;/tmp/tmp7l4rsz9p/student/tests/vectorTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp7l4rsz9p/student/build

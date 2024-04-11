@@ -1,0 +1,23 @@
+"C:\Users\006ma\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/006ma/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\006ma\OneDrive\Pulpit\C++\lab3-vector-main\lab3-vector-main -B C:\Users\006ma\OneDrive\Pulpit\C++\lab3-vector-main\lab3-vector-main\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/006ma/AppData/Local/Programs/CLion Nova/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/006ma/AppData/Local/Programs/CLion Nova/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug
+ + Znaleziono nagłówki: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/fraction.h;C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/vector.h
+ + Znaleziono źródła: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/fraction.cpp;C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/main.cpp;C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/vector.cpp
+ + Znaleziono źródła bez main.cpp: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/fraction.cpp;C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/vector.cpp
+-- Found Python: C:/Users/006ma/AppData/Local/Programs/Python/Python312/python.exe (found version "3.12.2") found components: Interpreter 
+ + Znaleziono pliki testów: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/fractionTests.cpp;C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/tests/vectorTests.cpp
+ + katalog nagłówków: 
+-- Configuring done (5.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/006ma/OneDrive/Pulpit/C++/lab3-vector-main/lab3-vector-main/cmake-build-debug
