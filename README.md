@@ -24,4 +24,5 @@ Demonstrates the creation and manipulation of single-linked list data structures
 ### String
 Explores the construction of a custom string class with various operations.
 
-
+## Author
+Maciej Grzybacz
