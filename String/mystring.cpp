@@ -300,7 +300,6 @@ bool MyString::operator<(const MyString& other) const {
     return size_ < other.size_;
 }
 
-//TODO NOT WORKING
 std::map<MyString, size_t> MyString::countWordsUsageIgnoringCases() const {
     std::map<MyString, size_t> result;
     auto split = this->split(MyString(" ,\n\t\r().?!-:;\"][{}"));
